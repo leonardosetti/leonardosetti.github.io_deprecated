@@ -25,15 +25,6 @@
     padding: 2rem;
   }
 
-  .profile-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 0 auto;
-    display: block;
-    background-color: #fff; /* White background for the image */
-  }
-
   .profile-name {
     font-size: 24px;
     font-weight: bold;
@@ -57,6 +48,20 @@
     padding: 1rem;
     color: #002a8d; /* Dark Blue from Cuban flag */
   }
+
+  .github-link {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    color: #002a8d; /* Dark Blue from Cuban flag */
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .github-link:hover {
+    background-color: #002a8d; /* Dark Blue from Cuban flag */
+    color: #fff;
+  }
 </style>
 </head>
 <body>
@@ -64,7 +69,6 @@
     <h1>Professional Profile</h1>
   </div>
   <div class="container">
-    <img class="profile-image" src="profile.jpg" alt="Profile Image">
     <h2 class="profile-name">Your Name</h2>
     <p class="profile-title">Professional Title</p>
     <p class="profile-description">
@@ -72,8 +76,33 @@
     </p>
   </div>
   <div class="footer">
-    &copy; 2023 Your Name
+    <p>Visitor IP: <span id="visitor-ip"></span></p>
+    <p>Visitor ISP: <span id="visitor-isp"></span></p>
+    <p>Visitor Location: <span id="visitor-location"></span></p>
+    <p>Visitor Browser: <span id="visitor-browser"></span></p>
+    <p>Visitor OS: <span id="visitor-os"></span></p>
   </div>
+  <a class="github-link" href="https://github.com/leonardosetti?tab=repositories" target="_blank">Visit My GitHub Repositories</a>
+
+  <script>
+    // Fetch visitor data using a service like ipinfo.io or any other suitable service
+    // Update the span elements with the fetched data
+
+    // Example data (replace with actual fetched data)
+    const visitorData = {
+      ip: '192.168.0.1',
+      isp: 'ISP Name',
+      location: 'City, Country',
+      browser: 'Chrome',
+      os: 'Windows 10'
+    };
+
+    document.getElementById('visitor-ip').textContent = visitorData.ip;
+    document.getElementById('visitor-isp').textContent = visitorData.isp;
+    document.getElementById('visitor-location').textContent = visitorData.location;
+    document.getElementById('visitor-browser').textContent = visitorData.browser;
+    document.getElementById('visitor-os').textContent = visitorData.os;
+  </script>
 </body>
 </html>
 
