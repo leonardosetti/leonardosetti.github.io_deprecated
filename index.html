@@ -1,69 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Professional Profile Presentation</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fff; /* White background */
-  }
-
-  .header {
-    background-color: #002a8d; /* Dark Blue from Cuban flag */
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-  }
-
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-  }
-
-  .profile-name {
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 1rem;
-  }
-
-  .profile-title {
-    font-size: 18px;
-    margin-top: 0.5rem;
-    color: #002a8d; /* Dark Blue from Cuban flag */
-  }
-
-  .profile-description {
-    margin-top: 1.5rem;
-    line-height: 1.6;
-  }
-
-  .footer {
-    background-color: #fcb316; /* Yellow from Cuban flag */
-    text-align: center;
-    padding: 1rem;
-    color: #002a8d; /* Dark Blue from Cuban flag */
-  }
-
-  .github-link {
-    display: block;
-    text-align: center;
-    margin-top: 2rem;
-    color: #002a8d; /* Dark Blue from Cuban flag */
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-  .github-link:hover {
-    background-color: #002a8d; /* Dark Blue from Cuban flag */
-    color: #fff;
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Profile Presentation</title>
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
+
 <body>
   <div class="header">
     <h1>Professional Profile</h1>
@@ -79,30 +23,11 @@
     <p>Visitor IP: <span id="visitor-ip"></span></p>
     <p>Visitor ISP: <span id="visitor-isp"></span></p>
     <p>Visitor Location: <span id="visitor-location"></span></p>
-    <p>Visitor Browser: <span id="visitor-browser"></span></p>
     <p>Visitor OS: <span id="visitor-os"></span></p>
   </div>
-  <a class="github-link" href="https://github.com/leonardosetti?tab=repositories" target="_blank">Visit My GitHub Repositories</a>
-
-  <script>
-    // Fetch visitor data using a service like ipinfo.io or any other suitable service
-    // Update the span elements with the fetched data
-
-    // Example data (replace with actual fetched data)
-    const visitorData = {
-      ip: '192.168.0.1',
-      isp: 'ISP Name',
-      location: 'City, Country',
-      browser: 'Chrome',
-      os: 'Windows 10'
-    };
-
-    document.getElementById('visitor-ip').textContent = visitorData.ip;
-    document.getElementById('visitor-isp').textContent = visitorData.isp;
-    document.getElementById('visitor-location').textContent = visitorData.location;
-    document.getElementById('visitor-browser').textContent = visitorData.browser;
-    document.getElementById('visitor-os').textContent = visitorData.os;
-  </script>
+  <a class="github-link" href="https://github.com/leonardosetti?tab=repositories" target="_blank">Visit My GitHub
+    Repositories</a>
+  <script src="/js/script.js"></script>
 </body>
-</html>
 
+</html>

@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #272822; /* Monokai background color */
+  color: #f8f8f2; /* Monokai text color */
+}
+
+.header {
+  background-color: #66d9ef; /* Monokai cyan */
+  text-align: center;
+  padding: 1rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.profile-title {
+  font-size: 18px;
+  margin-top: 0.5rem;
+  color: #a6e22e; /* Monokai green */
+}
+
+.profile-description {
+  margin-top: 1.5rem;
+  line-height: 1.6;
+}
+
+.footer {
+  background-color: #75715e; /* Monokai brown */
+  text-align: center;
+  padding: 1rem;
+}
+
+.github-link {
+  display: block;
+  text-align: center;
+  margin-top: 2rem;
+  color: #a6e22e; /* Monokai green */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.github-link:hover {
+  background-color: #a6e22e; /* Monokai green */
+  color: #272822; /* Monokai background color */
+}
