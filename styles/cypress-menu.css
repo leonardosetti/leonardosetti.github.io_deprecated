@@ -1,0 +1,36 @@
+/* Cypress menu style */
+.cypress-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  background-color: #343434;
+  padding: 10px 20px;
+}
+
+.cypress-menu li {
+  font-size: 18px;
+}
+
+.cypress-menu a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.2s;
+}
+
+.cypress-menu a:hover {
+  color: #00b9ff;
+}
+
+/* Footer bar style */
+.footer-bar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}

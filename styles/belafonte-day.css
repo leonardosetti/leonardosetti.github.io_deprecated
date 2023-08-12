@@ -1,0 +1,18 @@
+/* Belafonte Day Theme */
+body {
+  background-color: #f7f4ef;
+  color: #333333;
+}
+
+.cypress-menu {
+  background-color: #f4f4f4;
+}
+
+.cypress-menu a {
+  color: #0074d9;
+}
+
+.footer-bar {
+  background-color: #f7f4ef;
+  color: #333333;
+}
