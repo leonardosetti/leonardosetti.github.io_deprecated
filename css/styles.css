@@ -1,57 +1,49 @@
-/* styles.css */
+/* Add your general styling here */
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #272822; /* Monokai background color */
-  color: #f8f8f2; /* Monokai text color */
 }
 
-.header {
-  background-color: #66d9ef; /* Monokai cyan */
-  text-align: center;
-  padding: 1rem;
+.top-menu {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
 
-.container {
-  max-width: 800px;
+.top-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+}
+
+.theme-toggle label {
+  margin-right: 10px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.central-panel {
   margin: 0 auto;
-  padding: 2rem;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
-.profile-name {
-  font-size: 24px;
-  font-weight: bold;
-  margin-top: 1rem;
+.carousel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.profile-title {
-  font-size: 18px;
-  margin-top: 0.5rem;
-  color: #a6e22e; /* Monokai green */
-}
-
-.profile-description {
-  margin-top: 1.5rem;
-  line-height: 1.6;
-}
-
-.footer {
-  background-color: #75715e; /* Monokai brown */
-  text-align: center;
-  padding: 1rem;
-}
-
-.github-link {
-  display: block;
-  text-align: center;
-  margin-top: 2rem;
-  color: #a6e22e; /* Monokai green */
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.github-link:hover {
-  background-color: #a6e22e; /* Monokai green */
-  color: #272822; /* Monokai background color */
+.carousel-item {
+  background-color: #f4f4f4;
+  padding: 10px;
 }

@@ -4,30 +4,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Professional Profile Presentation</title>
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" id="theme-style" href="styles/gruvbox-dark.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="scripts/main.js"></script>
+  <title>Your Personal Portfolio</title>
 </head>
 
 <body>
-  <div class="header">
-    <h1>Professional Profile</h1>
-  </div>
-  <div class="container">
-    <h2 class="profile-name">Your Name</h2>
-    <p class="profile-title">Professional Title</p>
-    <p class="profile-description">
-      Welcome to my profile! I am a passionate professional with expertise in various fields...
-    </p>
-  </div>
-  <div class="footer">
-    <p>Visitor IP: <span id="visitor-ip"></span></p>
-    <p>Visitor ISP: <span id="visitor-isp"></span></p>
-    <p>Visitor Location: <span id="visitor-location"></span></p>
-    <p>Visitor OS: <span id="visitor-os"></span></p>
-  </div>
-  <a class="github-link" href="https://github.com/leonardosetti?tab=repositories" target="_blank">Visit My GitHub
-    Repositories</a>
-  <script src="/js/script.js"></script>
+  <nav class="top-menu">
+    <ul id="menu-list"></ul>
+    <div class="theme-toggle">
+      <label for="theme-select">Change Theme:</label>
+      <select id="theme-select"></select>
+    </div>
+  </nav>
+  <main class="content">
+    <div class="central-panel">
+      <div class="carousel" id="carousel-container"></div>
+    </div>
+    <div class="contact-links">
+      <a href="mailto:devnull-vortex@protonmail.com">Contact Me</a>
+      <a href="https://github.com/leonardosetti?tab=repositories">GitHub Repositories</a>
+    </div>
+  </main>
 </body>
 
 </html>
