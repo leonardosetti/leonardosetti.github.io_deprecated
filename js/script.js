@@ -1,5 +1,5 @@
 // Fetch visitor data using an IP Data API (replace 'YOUR_API_KEY' with your actual API key)
-const apiKey = "1be9a6884abd4c3ea143b59ca317c6b2";
+const apiKey = "fe92c86eeb4e4fa1a81992e01bdcd3db";
 const apiUrl = `https://ipgeolocation.abstractapi.com/v1/?api_key=${apiKey}`;
 
 fetch(apiUrl)
