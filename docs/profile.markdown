@@ -6,7 +6,6 @@
 
 layout: page
 title: About
-
 permalink: /profile/
 ---
 
