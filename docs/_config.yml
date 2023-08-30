@@ -24,7 +24,7 @@ email: leonardo.setti@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   
 domain: "leonardosetti.github.io"
-baseurl: "leonardosetti.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://leonardosetti.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nameTBD
 github_username:  leoanrdosetti
