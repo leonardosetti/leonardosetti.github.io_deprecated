@@ -19,13 +19,15 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Leonardo Setti
+lang: pt-br
 email: leonardo.setti@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This space aims to gather information about me, a professional in a constant rhythm of learning and improvement in various areas, both professionally and personally. With over fifteen years of experience in the field of Software Quality Assurance, I have worked for different companies, clients, and market sectors, all of which have been supported by IT. I am an enthusiast of Open Source and Free Software systems, advocating for the democratization of knowledge and information.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://leonardosetti.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nameTBD
 github_username:  leoanrdosetti
+linkedIn_profile: "https://www.linkedin.com/in/leonardo-setti/"
 
 # Build settings
 # theme: minima
