@@ -1,29 +1,19 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
-date:   2023-08-30 16:49:11 -0300
-categories: jekyll update
+layout: single
+title:  "Welcome to Jekyll + Minimal Mistakes Jekyll theme"
+date:   2023-08-31 14:20:00 -0000
+categories: jekyll them add
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Starting from jekyll newPermalink
+Scaffolding out a site with the jekyll new command requires you to modify a few files that it creates.
 
-Jekyll requires blog post files to be named according to the following format:
+Edit _config.yml. Then:
 
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Replace `<site root>`/index.md with a modified Minimal Mistakes index.html. Be sure to enable pagination if using the home layout by adding the necessary lines to _config.yml.
+Change layout: post in_posts/0000-00-00-welcome-to-jekyll.markdown to layout: single.
+Remove about.md, or at the very least change layout: page to layout: single and remove references to icon-github.html (or copy to your_includes if using it).
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+[Minimal Mistakes Theme]: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
