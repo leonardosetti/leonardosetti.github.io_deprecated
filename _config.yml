@@ -29,7 +29,9 @@ twitter_username: issaeFera
 github_username:  leonardosetti
 
 # Build settings
-theme: minima
+# theme: minima
+theme: minimal-mistakes-jekyll
+# remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
 
