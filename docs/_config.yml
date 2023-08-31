@@ -28,8 +28,8 @@ twitter_username: issaeFera
 github_username:  leonardosetti
 
 # Build settings
-#theme: minima
-theme: bulma-clean-theme
+theme: minima
+#theme: bulma-clean-theme
 plugins:
   - jekyll-feed
 
