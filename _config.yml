@@ -63,3 +63,43 @@ locale: "pt-BR"
 title_separator: "|"
 
 subtitle: "Version 0.0"
+
+# Footer conf:
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/leonardosetti"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/leonardo-setti/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/issaeFera"
+    - label: "Stack Overflow"
+      icon: "fab fa-fw fa-stack-overflow"
+      url: "https://stackoverflow.com/users/22049706"
+    
+
+    author:
+  name   : "Renato Golia"
+  avatar : "/assets/images/rg.jpg"
+  bio    : >-
+    Meu nome é Leonardo
+
+    Apaixonado por churrasco, vivo no interior paulista apesar de já ter vivido em diversas regiões do Brasil.
+    Atualmente trabalho como Analista de Qualidade de Software e gosto de me envolver com quase todo tipo de tecnologia.
+    Tenho grande interesse em sistemas open source e sou um amante de sistemas Unix-Based. "I'm using Arch btw!"
+
+  location: "Brasil"
+  url: "https://goo.gl/maps/Xut5qn8b1wBtRQ4k8"
+  
+  stackoverflow: "22049706"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:devnullvortex@protonmail.com"
+      # label: "Resume"
+      # icon: "far fa-fw fa-file-pdf"
+      # url: "/assets/files/tbd.pdf" 
