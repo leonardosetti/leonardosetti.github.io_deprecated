@@ -18,11 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: ONGOING (Testing Env)
+title: ONGOING|Test Env yet ;)
 email: servsecsub@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is a sample delivery.
   The environment still on test!!
+  This is a personal profile that towards to Technology, IT, Quality Assurance, SLDC Processes.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://leonardosetti.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: issaeFera
@@ -32,6 +33,7 @@ github_username:  leonardosetti
 # theme: minima
 # theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "neon" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
@@ -55,3 +57,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+locale: "pt-BR"
+
+title_separator: "|"
+
+subtitle: "Version 0.0"
