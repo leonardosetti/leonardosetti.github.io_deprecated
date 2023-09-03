@@ -110,7 +110,7 @@ author:
   name             : "Leonardo Setti"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "QA Analyst: Ando com muita pressa!."
-  location         : "Brazil"
+  location         : "Brasil"
   email            : "devnull-vortex@protonmail.com"
   links:
     - label: "Email"
