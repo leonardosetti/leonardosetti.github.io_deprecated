@@ -28,6 +28,7 @@ But there is another side to it: the character, the main actor with the experien
 
 So, now I am struggling and working hard to reach the level of automation hero and all those shiny pendants!
 _And, I'll be there!_
+
 [<img alt="Static Badge" src="https://img.shields.io/badge/%3Awq!-orange?logo=vim&logoColor=green&labelColor=grey"/>](#hi-there-how-are-you)
 
 ---
